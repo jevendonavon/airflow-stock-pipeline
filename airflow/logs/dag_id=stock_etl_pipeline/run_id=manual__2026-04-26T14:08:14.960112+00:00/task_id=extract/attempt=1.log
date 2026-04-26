@@ -1,0 +1,15 @@
+{"timestamp":"2026-04-26T14:08:16.205423Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-26T14:08:16.205994Z","level":"info","event":"Filling up the DagBag from /home/jeven/airflow-stock-pipeline/airflow/dags/stock_pipeline_dag.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-26T14:08:16.427942Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-26T14:08:16.428124Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-26T14:08:16.428301Z","level":"info","event":"Current task name:extract","logger":"task.stdout"}
+{"timestamp":"2026-04-26T14:08:16.428413Z","level":"info","event":"Dag name:stock_etl_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-04-26T14:08:16.429301Z","level":"info","event":"Extracting AAPL...","logger":"task.stdout"}
+{"timestamp":"2026-04-26T14:08:17.065033Z","level":"info","event":"Extracting MSFT...","logger":"task.stdout"}
+{"timestamp":"2026-04-26T14:08:17.175610Z","level":"info","event":"Extracting GOOGL...","logger":"task.stdout"}
+{"timestamp":"2026-04-26T14:08:18.091063Z","level":"info","event":"Extracting AMZN...","logger":"task.stdout"}
+{"timestamp":"2026-04-26T14:08:18.193774Z","level":"info","event":"Extracted 496 rows","logger":"task.stdout"}
+{"timestamp":"2026-04-26T14:08:18.193909Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":229}
+{"timestamp":"2026-04-26T14:08:18.206893Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-26T14:08:18.207059Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-26T14:08:18.207184Z","level":"info","event":"Task operator:<Task(PythonOperator): extract>","logger":"task.stdout"}
